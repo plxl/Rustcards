@@ -1,0 +1,21 @@
+[package]
+name = "Rustcards"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.bundle]
+identifier = "com.plxl.rustcards"
+assets = ["assets"]
+
+[package.metadata.bundler]
+assets = ["assets"]
+
+[dependencies]
+argh = "0.1.13"
+bevy = "0.15.1"
+objc = "0.2.7"
+rand = "0.8.5"
+rand_chacha = "0.3.1"
+ron = "0.8.1"
+serde = "1.0.217"
+
